@@ -20,6 +20,12 @@
         width: 250px;
         align-items: center;
         justify-content: space-between;
+        .btn_text {
+            transition: 0.3s all;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
     }
     &__link {
         color: #000;

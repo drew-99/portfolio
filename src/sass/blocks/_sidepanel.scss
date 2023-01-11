@@ -8,6 +8,13 @@
     top: 230px;
     left: 50px;
     align-items:center;
+    
+    &__link {
+        transition: 0.3s all;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
     &__divider {
         width: 2px;
         height: 70px;
